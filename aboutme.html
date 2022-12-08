@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="container-fluid header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              />
+            </svg>
+            Duy Anh Nguyen</a
+          >
+         
+        </div>
+      </nav>
+    </header>
+    <div class="container mt-4 title-name">
+      <h1>Duy Anh Nguyen</h1>
+      <p1>Front-End Developer</p1>
+    </div>
+    <div class="container">
+      <div class="row mt-2">
+        
+        <div class="col-md-6">
+          <h1>About Me</h1>
+          <p class="intro">
+            My name is Duy Anh Nguyen. I was born in February 9th 1999. I come from Hanoi, Vietnam. I have been studying for
+            2 years in Germany and 4 years in Vietnam. I have graduated from Thuy Loi University. My strength is Information Technology,
+            specifically in Website Frontend Development. I can speak fluently 3 languages, which are German, English, and Vietnamese.
+
+          </p>
+          <ul>
+            <li><a href="https://github.com/danh9299" class="text-decoration-none link-primary">Github: danh9299</a></li>
+            <li><a href="mailto:nguyenduyanh.tit@gmail.com" class="text-decoration-none link-primary">Email: nguyenduyanh.tit@gmail.com</a></li>
+            <li><a href="#" class="text-decoration-none link-primary">Phone: 0336 775 479</a></li>
+            <li><a href="#" class="text-decoration-none link-primary">Address: 22/148 Thinh Hao 1, Hang Bot, Dong Da, Hanoi</a></li>
+            <li><a href="https://www.facebook.com/nguyen.duyanh.12345/" class="text-decoration-none link-primary">Facebook: Nguyễn Duy Anh</a></li>
+            <li><a href="https://www.instagram.com/d_anh92" class="text-decoration-none link-primary">Instagram: d_anh92</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="image/danh92.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="mt-5 mb-3">My Activities</h3>
+      <div class="row mt-2">
+        <div class="col-md">
+          <figure class="figure">
+            <img
+              src="image/dongda.jpg"
+              class="figure-img img-fluid rounded"
+              alt="Learning in Dong Da Highschool"
+            />
+            <figcaption class="text-center figure-caption">
+              Dong Da High School Graduation.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img
+              src="image/stk.jpg"
+              class="figure-img img-fluid rounded"
+              alt="prepare for university in Studienkolleg Coburg"
+            />
+            <figcaption class="text-center figure-caption">
+              Studienkolleg In Germany Graduation.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img
+              src="image/coburg.jpg"
+              class="figure-img img-fluid rounded"
+              alt="study in Hochschule Coburg"
+            />
+            <figcaption class="text-center figure-caption">
+              Studying In Coburg University.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img
+              src="image/thuyloi.jpg"
+              class="figure-img img-fluid rounded"
+              alt="study at thuy loi university"
+            />
+            <figcaption class="text-center figure-caption">
+              Studying In Thuyloi University.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!--Phần cho slide-->
+    <section class="slider container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+            
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="text-center">My Skill</h3>
+                <p>
+                    I am very confident in my presentation skill. I took part in many presentation courses, which teach me
+                    how to present using Powerpoint and manage all situations that come up. 
+                     
+                </p>
+                <p>
+                    Besides, I can use Adobe Illustrator and Canvas for Graphics Design. I have basics in Microsoft Office tools, which are Word, Excel, and Powerpoint. I can also work as
+                    a team with my partners by using Google Docs, Google Sheets, and Google Slide.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <h3 class="text-center">My Working Experience</h3>
+                <p>
+                  I have been a Content Writer of the Iwritin. I write SEO content for blogs,
+                  websites. There is no limitation for the article topics that I write. But overall, I focus on writing topics of IT.
+                </p>
+                <p>
+                    Besides, I also worked as a Website Administrator in Quoc Anh Company. The website that I take under control is
+                    <u><a href="https://www.thegioidienmay247.vn" class="text-decoration-none link-primary">thegioidienmay247.vn</a></u>. My jobs are uploading new products, changing banners, managing
+                    the activities of other users, and making changes to the UX/UI of the website.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="text-center">My Certificate</h3>
+                <p class="text-center">
+                  I have many certificates. The most prouded ones are:
+                </p>
+                <ul class="text-center list-unstyled">
+                    <li><b>Colorme for Graphics Design</b></li>
+                    <li><b>Goethe Insitute B1 Level In German</b></li>
+                    <li><b>Toeic 775 For English Level</b></li>
+                    <li><b>Graduation For Studienkolleg Coburg</b></li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="text-center">My Programming Languages</h3>
+                <p class="text-center">
+                  I can program in different languages, but I work best with the ones below:
+                </p>
+                <ul class="text-center list-unstyled">
+                    <li><b>Python</b></li>
+                    <li><b>C++</b></li>
+                    <li><b>Java</b></li>
+                    <li><b>Html, Css, Js</b></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="text-center">My Writings</h3>
+                <ul class="text-center list-unstyled">
+                    <li><a href="https://github.com/danh9299/Project-01---TLU.git" class=" link-primary">PSD to HTML</a></li>
+                    <li><a href="https://github.com/danh9299/Big-Project---Clone-Facebook.git" class=" link-primary">Facebook Clone</a></li>
+                    <li><a href="https://github.com/danh9299/DEV-TH1.git" class=" link-primary">Phone Shop</a></li>
+                    <li><a href="https://github.com/danh9299?tab=repositories&q=&type=&language=python&sort=" class=" link-primary">Shortest Path Using Python</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="text-center ">My Projects</h3>
+                <ul class="text-center list-unstyled">
+                    <li><a href="https://docs.google.com/document/d/14-C9V9ULb0eSLz1DFaWNLdseTQcudLFg-amUEkZuoQ0/edit#heading=h.bogbnj6z9rqp" class=" link-primary">Log In 192.168.0.2</a></li>
+                    <li><a href="https://docs.google.com/document/d/1Ft5ny6KVcaKLywdq1JWnVrfCiHfZbYE4_0pfodtXRX8/edit#heading=h.xml220a8tdvw" class=" link-primary">Why Can’t I Access 192.168.l?</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+        
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span style=" filter: invert(100%);"class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span style=" filter: invert(100%);"class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact container mt-5">
+      <h3 class="mt-5 mb-3">Contact (Duy Anh Nguyen)</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="col-md-4">
+          <label class="form-label"> User Name</label>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" aria-label="Username" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-2">
+        <div class="col-md-6">
+          <label class="form-label">City</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="col-md-3">
+          <label class="form-label">State</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Choose</option>
+            <option value="1">State 1</option>
+            <option value="2">State 2</option>
+            <option value="3">State 3</option>
+          </select>
+        </div>
+
+        <div class="col-md-3" >
+          <label  class="form-label" >Zip</label>
+          <input
+            type="text"
+            class="form-control"
+          />
+          
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+            <label class="form-check-label" for="invalidCheck3">
+              Agreed
+            </label>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit Form</button>
+</form></div>
+</div>
+    </section>
+
+     <!--footer-->
+     <footer class="footer">
+      <div class="container">
+          <div class="row mt-5">
+            <div class="col-md mt-5">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg> Social Network</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/nguyen.duyanh.12345/" class="text-decoration-none link-primary">Facebook</a></li>
+                <li><a href="https://www.instagram.com/d_anh92" class="text-decoration-none link-primary">Instagram</a></li>
+                <li><a href="https://join.skype.com/invite/wFv9DeiXnxTH" class="text-decoration-none link-primary">Skype</a></li>
+              </ul>
+            </div>
+            <div class="col-md mt-5">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg> Contact For Work</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://github.com/danh9299" class="text-decoration-none link-primary">Github</a></li>
+                <li><a href="mailto:nguyenduyanh.tit@gmail.com" class="text-decoration-none link-primary">Email: nguyenduyanh.tit@gmail.com</a></li>
+                <li><a href="#" class="text-decoration-none link-primary">Phone: 0336 775 479</a></li>
+              </ul>
+            </div>
+            <div class="col-md mt-5">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg> General Information</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none link-primary">Birthday: 9/2/1999</a></li>
+                <li><a href="#" class="text-decoration-none link-primary">Add: 22/148 Thinh Hao 1, Hang Bot, Dong Da, Hanoi</a></li>
+              </ul>
+            </div>
+            <div class="col-md mt-5">
+              <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg> Education</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none link-primary">Studienkolleg Coburg</a></li>
+                <li><a href="#" class="text-decoration-none link-primary">Coburg University</a></li>
+                <li><a href="#" class="text-decoration-none link-primary">Thuy Loi University</a></li>
+  
+              </ul>
+            </div>
+  
+          </div>
+          <div class="row mt-3 mb-3">
+            <hr>
+            <div class="col-md text-center text-muted">
+              &copy; Duy Anh Nguyen 12/2022
+            </div>
+          </div>
+      </div>
+    </footer>
+
+
+    <!--bundle-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
